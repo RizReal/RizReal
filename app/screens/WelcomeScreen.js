@@ -9,6 +9,7 @@ function WelcomeScreen(props) {
         <ImageBackground 
         style= {styles.backgraound}
         source={require('../assets/sun.jpg') } >
+        <Image style={styles.logo} source={require('../assets/rizreal-logo.png')}/>
         <View style={styles.loginButton}></View>
         <View style={styles.RegisterButton}></View>
 
@@ -21,8 +22,17 @@ function WelcomeScreen(props) {
 const styles = StyleSheet.create({
     backgraound:{
         flex: 1,
-        justifyContent: 'flex-end'
+        justifyContent: 'flex-end',
+        alignItems: 'center',
+        
        
+    },
+    logo: {
+        width: 150, 
+        height: 150 ,
+        position: 'absolute',
+        top: 100,
+        
     },
     loginButton: {
         width: '100%', 

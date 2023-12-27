@@ -3,11 +3,9 @@ import { StyleSheet, Text, View, SafeAreaView, StatusBar, Image, Platform} from 
 import WelcomeScreen from './app/screens/WelcomeScreen';
 
 export default function App() {
-  console.log("App executed1");
+  console.log("App executed");
 
 
   return<WelcomeScreen />
   
 } 
-
-

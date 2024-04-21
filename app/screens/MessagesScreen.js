@@ -31,7 +31,7 @@ function MessagesScreen(props) {
                 title = {item.title}
                 description = {item.description}
                 image = {item.image}
-                onPress={() => console.log('Message selected')}
+                onPress={() => console.log('Message selected',item)}
             /> }
             ItemSeparatorComponent={ListItemSeparator}
         />

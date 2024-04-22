@@ -6,6 +6,7 @@ import AppText from '../components/AppText';
 import ListItem from '../components/ListItem';
 
 
+
 function ListingDetailsScareen(props) {
     console.log("App executed2");
     return (
